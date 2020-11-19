@@ -1,0 +1,39 @@
+{
+  "name": "DEX",
+  "version": "4.2.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service build --mode test"
+  },
+  "dependencies": {
+    "@riophae/vue-treeselect": "0.0.38",
+    "axios": "^0.18.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-polyfill": "^6.26.0",
+    "default-passive-events": "^2.0.0",
+    "element-ui": "^2.13.0",
+    "js-md5": "^0.7.3",
+    "nprogress": "^0.2.0",
+    "qrcodejs2": "0.0.2",
+    "vue": "^2.6.10",
+    "vue-clipboard2": "^0.3.1",
+    "vue-cropper": "^0.5.0",
+    "vue-cropperjs": "^3.0.0",
+    "vue-router": "^3.0.3",
+    "vue-schart": "^2.0.0",
+    "vuedraggable": "^2.17.0",
+    "vuex": "^3.1.2",
+    "vuex-persist": "^2.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^4.5.4",
+    "file-saver": "^2.0.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.10",
+    "xlsx": "^0.15.5"
+  }
+}
